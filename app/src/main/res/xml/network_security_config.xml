@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Block any accidental plain-HTTP requests to the API domain -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">smarttrans.ro</domain>
+    </domain-config>
+</network-security-config>
